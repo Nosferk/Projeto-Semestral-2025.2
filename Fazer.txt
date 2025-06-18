@@ -10,3 +10,4 @@ verificar
 salvar
 fazer a placa board
 salvar
+https://www.kicad.org/discover/spice/
