@@ -1,0 +1,12 @@
+Coisas pra fazer
+
+- Colocar Ground abaixo do Led D1
+salvar
+Colocar os footprints
+salvar
+Fazer footprints que nao tem
+salvar
+verificar
+salvar
+fazer a placa board
+salvar
