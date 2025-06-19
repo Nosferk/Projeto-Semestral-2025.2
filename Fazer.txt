@@ -1,0 +1,14 @@
+Coisas pra fazer
+
+- Colocar Ground abaixo do Led D1
+salvar
+Colocar os footprints
+salvar
+Fazer footprints que nao tem
+salvar
+verificar
+salvar
+fazer a placa board
+salvar
+https://www.kicad.org/discover/spice/
+https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FNosferk%2FProjeto-Semestral-2025.2%2Ftree%2Fmain%2Fkitcat%2FProjeto2025.2
