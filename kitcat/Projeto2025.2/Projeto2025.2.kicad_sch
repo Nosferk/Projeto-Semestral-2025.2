@@ -1880,6 +1880,12 @@
 		(uuid "1a1bc9e0-6b64-4dd4-aa02-0f89a70fdf9f")
 	)
 	(junction
+		(at 189.23 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25c0560a-91fe-4d5c-b718-52ccaa614d30")
+	)
+	(junction
 		(at 110.49 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2435,6 +2441,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 68.58) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9986034f-20f3-43de-838a-65f1e5cba232")
+	)
+	(wire
+		(pts
 			(xy 184.15 77.47) (xy 184.15 83.82)
 		)
 		(stroke
@@ -2475,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 68.58) (xy 198.12 68.58)
+			(xy 185.42 68.58) (xy 189.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2721,7 +2737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_5mm"
 			(at 106.3752 106.68 0)
 			(effects
 				(font
@@ -2791,7 +2807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_5mm"
 			(at 168.6052 106.68 0)
 			(effects
 				(font
@@ -2861,7 +2877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Conector KRE"
 			(at 220.98 60.96 0)
 			(effects
 				(font
@@ -2995,7 +3011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Conector KRE"
 			(at 53.34 96.52 0)
 			(effects
 				(font
@@ -3065,7 +3081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Resistor_1_4W"
 			(at 85.852 91.44 90)
 			(effects
 				(font
@@ -3108,6 +3124,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 189.23 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "314b429b-2d49-493e-85fc-a91c8d245973")
+		(property "Reference" "#PWR05"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 189.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1234a9c0-abb6-43dc-a96e-40a0ca2923b1")
+		)
+		(instances
+			(project ""
+				(path "/1421b1c5-d608-4702-afbd-6fccffd87076"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 198.12 59.69 0)
 		(unit 1)
@@ -3135,7 +3217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_10mm"
 			(at 199.0852 63.5 0)
 			(effects
 				(font
@@ -3204,7 +3286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Conector KRE"
 			(at 209.55 96.52 0)
 			(effects
 				(font
@@ -3271,7 +3353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_7.5mm"
 			(at 200.66 90.4748 0)
 			(effects
 				(font
@@ -3339,7 +3421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Resistor_1_4W"
 			(at 163.83 89.408 90)
 			(effects
 				(font
@@ -3407,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_7.5mm"
 			(at 60.96 91.1352 0)
 			(effects
 				(font
@@ -3543,7 +3625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Capacitor_Poliesterg"
 			(at 159.7152 63.5 0)
 			(effects
 				(font
@@ -3613,7 +3695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_5mm"
 			(at 73.3552 85.09 0)
 			(effects
 				(font
@@ -3749,7 +3831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Capacitor_Poliesterp"
 			(at 73.3552 106.68 0)
 			(effects
 				(font
@@ -3818,7 +3900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Conector KRE"
 			(at 125.73 31.75 0)
 			(effects
 				(font
@@ -3886,7 +3968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Virk:LA4182"
+		(property "Footprint" "aavirk:Circuito integrado"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -4138,7 +4220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Capacitor_Poliesterg"
 			(at 97.4852 86.36 0)
 			(effects
 				(font
@@ -4208,7 +4290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Conector KRE"
 			(at 142.24 31.75 0)
 			(effects
 				(font
@@ -4278,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Resistor_220_1_4W"
 			(at 183.642 54.61 90)
 			(effects
 				(font
@@ -4348,7 +4430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_5mm"
 			(at 88.5952 106.68 0)
 			(effects
 				(font
@@ -4417,7 +4499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "aavirk:Capacitor_Eletrolítico_5mm"
 			(at 185.1152 91.44 0)
 			(effects
 				(font
@@ -4550,7 +4632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Potenciometro_dual"
 			(at 127 50.165 0)
 			(effects
 				(font
@@ -4697,7 +4779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "aavirk:Led_5mm"
 			(at 182.626 63.754 0)
 			(effects
 				(font
@@ -4767,7 +4849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "aavirk:Capacitor_Poliesterp"
 			(at 185.1152 106.68 0)
 			(effects
 				(font

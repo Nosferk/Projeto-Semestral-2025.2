@@ -1,2 +1,4757 @@
-(kicad_pcb (version 20241229) (generator "pcbnew") (generator_version "9.0")
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "Net-(J1-Pin_2)")
+	(net 2 "Net-(IC1-2{slash}OUT2)")
+	(net 3 "Net-(IC1-3{slash}BS2)")
+	(net 4 "GNDREF")
+	(net 5 "Net-(C4-Pad1)")
+	(net 6 "Net-(C5-Pad1)")
+	(net 7 "Net-(IC1-5{slash}IN2)")
+	(net 8 "Net-(IC1-6{slash}DC)")
+	(net 9 "Net-(IC1-12{slash}VCC)")
+	(net 10 "Net-(IC1-8{slash}IN1)")
+	(net 11 "Net-(C8-Pad1)")
+	(net 12 "Net-(C9-Pad1)")
+	(net 13 "Net-(IC1-11{slash}OUT1)")
+	(net 14 "Net-(IC1-10{slash}BS1)")
+	(net 15 "Net-(J4-Pin_1)")
+	(net 16 "Net-(D1-Pad2)")
+	(net 17 "Net-(IC1-4{slash}NF2)")
+	(net 18 "Net-(IC1-9{slash}NF1)")
+	(net 19 "Net-(J2-Pin_2)")
+	(net 20 "Net-(J3-Pin_1)")
+	(footprint "aavirk:Resistor_220_1_4W"
+		(layer "F.Cu")
+		(uuid "08bab232-41f0-4111-93bc-96f927d2d48a")
+		(at 156.5 106.5)
+		(property "Reference" "R1"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "eb9f58ac-b1d4-4e98-b40a-7a4957670c3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "560Ω"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "80092c05-f941-4332-b47a-1c1dfcbfac6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a8ecdce-57dd-42f4-9455-0b326944210c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a2268a0-35e2-49c6-aa14-f5f29adaa9c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/ad7c488d-9201-4403-86b2-b3e6e864bc8b")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.7 -1.2)
+			(end -4.700648 -0.74402)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "9b63106c-0092-4521-b40c-9a9868e315a9")
+		)
+		(fp_line
+			(start -4.7 -1.2)
+			(end 4.7 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "33f10d86-8bc0-463c-96b5-4a8d20fbd40c")
+		)
+		(fp_line
+			(start -4.7 1.2)
+			(end -4.700648 0.759221)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "148fa28a-43f3-4105-ae94-223c837f0d2b")
+		)
+		(fp_line
+			(start 4.7 -1.2)
+			(end 4.699162 -0.746723)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "599231a9-e0ba-4be7-a872-3d5707ac2096")
+		)
+		(fp_line
+			(start 4.7 1.2)
+			(end -4.7 1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7ca0a2cf-3cf1-4e6e-aef3-5400cc96182a")
+		)
+		(fp_line
+			(start 4.7 1.2)
+			(end 4.696381 0.757502)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7a527b5b-b0e4-4921-be9e-203cc70b0264")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8c9f6a9a-be86-47d9-9be1-03c9f45cf8ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -5 0 180)
+			(size 1.5 1.5)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "Net-(IC1-12{slash}VCC)")
+			(pintype "passive")
+			(uuid "df2e27e3-f6e5-461a-9a26-2eb746954c76")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0 180)
+			(size 1.5 1.5)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(D1-Pad2)")
+			(pintype "passive")
+			(uuid "bf8e83e3-d1c4-4190-b3dd-e76fda98f504")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-Res40-Axial 0_25W-220R.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Poliesterp"
+		(layer "F.Cu")
+		(uuid "08d663f5-2995-4239-bd4c-b5e17f2bdc0d")
+		(at 146.35 99.8)
+		(property "Reference" "C3"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "410a505d-21e5-47af-9f46-cdda6e5fb411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "150nF"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5dddf8cd-611c-414a-afed-c85767d05616")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62b39e30-987a-433f-81d0-632fc0376330")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9632f45e-4fcd-4649-b316-51616cecd889")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/9e6fffa7-69c0-4211-a3c5-dd42c5bf42c7")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3 -1.5)
+			(end -3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "17363836-bcf1-4bab-8ed4-3b67b0c652d2")
+		)
+		(fp_line
+			(start -3 -1.5)
+			(end 3 -1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "fe655631-d172-47a4-ad1a-ac36b19aa63d")
+		)
+		(fp_line
+			(start -3 1.5)
+			(end -3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "57c608fc-34ac-45fe-84db-eb1b9321e777")
+		)
+		(fp_line
+			(start 3 -1.5)
+			(end 3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "af704b18-9601-4f7e-9c9e-2a0b705f6d6b")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end -3 1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2c7bf8b9-7de8-4a44-a850-2d1bff3e5e76")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end 3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4f23668c-33ec-412c-8b6f-076a2942384c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "61147e93-a7cb-454a-964e-5e4c972b2437")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "Net-(IC1-2{slash}OUT2)")
+			(pintype "passive")
+			(uuid "0ededa21-0a1f-4e83-853f-beee994a9e85")
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pintype "passive")
+			(uuid "4a94f717-5d61-4bd2-a04d-75b08a3366ef")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/c322c104k5r5ta.stp"
+			(offset
+				(xyz -2.5 1.5 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Led_5mm"
+		(layer "F.Cu")
+		(uuid "0cd4f63b-a04c-47ca-9258-83ca037dca8e")
+		(at 137 107)
+		(property "Reference" "D1"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2889af5b-45fc-47dc-9c15-adbd2a19d4ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "LED_5mm"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "22bfad7e-576a-4734-842e-80bd664a65d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c857c4a-bc60-4297-b099-983d592c0977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Common 5mm diameter LED"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48cb7bcf-5a8c-4deb-a537-b34696957733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED_D5.0mm_Clear LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm")
+		(path "/ea7546bb-cefb-4a64-9397-f8b76271a8ad")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -0.6)
+			(end -2.5 0.6)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "518a929c-51f7-4a09-94ae-f0b8a62040dc")
+		)
+		(fp_line
+			(start -2.4 -0.8)
+			(end -2.5 -0.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "550e1365-c791-46cd-8caa-fcca43d8c489")
+		)
+		(fp_line
+			(start -2.4 0.8)
+			(end -2.5 0.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "098fc30e-e6ee-4aaa-a963-15f470f8dc7c")
+		)
+		(fp_line
+			(start -2.4 1)
+			(end -2.4 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cafe42a1-9bdd-4ccc-acde-7a1c684a7533")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.6 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3f7f8829-2530-4afb-8885-9e3ba6c5eebd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "98ed975a-c6c5-4364-bc3b-80bd3b955682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at -1.2 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net 4 "GNDREF")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "80c95edc-dfe2-4d65-ab6d-7fc91775a8d7")
+		)
+		(pad "2" thru_hole circle
+			(at 1.2 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "Net-(D1-Pad2)")
+			(pintype "passive")
+			(uuid "f47269cd-4011-42e5-b9db-ffe18e231526")
+		)
+		(embedded_fonts no)
+		(embedded_files
+			(file
+				(name "ALSRobot-LED Red 5mm.STEP")
+				(type model)
+				(checksum "56CB8494091C1F4C084D3517CC7EED0D")
+			)
+		)
+		(model "kicad-embed://ALSRobot-LED Red 5mm.STEP"
+			(opacity 0.6400)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Conector KRE"
+		(layer "F.Cu")
+		(uuid "0ebdd9b6-4937-4ba4-ae95-48c9a0e4b48f")
+		(at 122.1 83.1)
+		(property "Reference" "J3"
+			(at 0.06 -8 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fc1b7dce-ae49-4212-b7c8-4c34738e0515")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 4.6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2df89888-d3d4-49b2-b011-5cc0af307992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba569185-2e25-49f5-b6ea-ea805647082f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69e0eb3e-50ac-4672-95f9-c5d5343d82c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/a9ebf7c3-1ed6-41d1-8282-a77c1ff6b6d1")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.8 -4)
+			(end -5.1 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f96aefbd-c14a-4e7c-9a40-9eae63965066")
+		)
+		(fp_line
+			(start -5.8 -2.6)
+			(end -5.8 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "30d721ca-57b5-4293-bb84-dc7d86f720ab")
+		)
+		(fp_line
+			(start -5.1 -4.8)
+			(end 5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6763c091-b741-4277-b8b1-506bb8ba6c62")
+		)
+		(fp_line
+			(start -5.1 -4)
+			(end -5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7a92af85-d9ee-4907-aef1-d193809541b8")
+		)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.8 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8eef70d5-f2c4-4d34-9274-c09805ce8bad")
+		)
+		(fp_line
+			(start -5.1 3.2)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "683fe134-74a2-4f0c-ab2a-6406e2b8043d")
+		)
+		(fp_line
+			(start -2.511889 1.293843)
+			(end -2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ccfcefc-6a1c-47b7-a28a-76a7686b27c1")
+		)
+		(fp_line
+			(start 2.499858 1.3)
+			(end 2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1a2e7874-8788-43f5-91a7-6e28bca176db")
+		)
+		(fp_line
+			(start 5.1 -4.8)
+			(end 5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36349891-2eef-4f2c-885c-932c58433344")
+		)
+		(fp_line
+			(start 5.1 3.2)
+			(end -5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "776c7329-bd51-452c-8080-e7185131ba9e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.06 -6.2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fee934d8-ae49-4ef8-aa17-73fce74f4551")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "Net-(J3-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "dc90122a-b251-48dd-a60c-c179f2f9fe37")
+		)
+		(pad "2" thru_hole roundrect
+			(at 2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 4 "GNDREF")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "b76c97f2-1517-41e7-a264-9927a4f7c7f9")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-KRE 2 pinos.STEP"
+			(offset
+				(xyz 0 0.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Conector KRE"
+		(layer "F.Cu")
+		(uuid "268eb2c6-a48e-4268-987f-1f17c1c6974e")
+		(at 122.1 92.2)
+		(property "Reference" "J4"
+			(at 0.06 -8 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c19ecab4-3b05-4a6b-b4f8-b2cae52a82f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 4.6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f1fb12ca-4057-429b-a430-9b625aaef4cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b84d13b2-eac0-4467-b4ad-ea0fd0a5b7f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e043a98-8dda-4086-acdd-3bb13c823211")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/40b76a91-3a37-405b-8571-0ab090a9e95a")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.8 -4)
+			(end -5.1 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f51aeff3-0af8-47d0-ab08-81265dab2f74")
+		)
+		(fp_line
+			(start -5.8 -2.6)
+			(end -5.8 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b6decc94-9636-4a26-9b64-c2061ca14a41")
+		)
+		(fp_line
+			(start -5.1 -4.8)
+			(end 5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04399fbc-d5df-482b-b143-4f3fa33319ea")
+		)
+		(fp_line
+			(start -5.1 -4)
+			(end -5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8c2b609b-79e5-435c-a798-f9c39bc262c4")
+		)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.8 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b908e9fd-aa31-4e06-8e7e-c714ec7ff509")
+		)
+		(fp_line
+			(start -5.1 3.2)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7edd217a-19ab-4743-a920-33a0527e3ba9")
+		)
+		(fp_line
+			(start -2.511889 1.293843)
+			(end -2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a49b09dc-b157-477b-9873-ed3c65198e69")
+		)
+		(fp_line
+			(start 2.499858 1.3)
+			(end 2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1dd79c0f-392e-413b-9607-04af3c3bb746")
+		)
+		(fp_line
+			(start 5.1 -4.8)
+			(end 5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "153b6bb3-2867-4dfb-9f8a-cf57efb11eb8")
+		)
+		(fp_line
+			(start 5.1 3.2)
+			(end -5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a28f40b6-b664-4b53-8176-5c6d4c14697a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.06 -6.2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "97cd685b-20cc-4221-8852-6596d2b8ed6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "Net-(J4-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "9d3532e1-0a16-41be-88c7-57a4022ea5b8")
+		)
+		(pad "2" thru_hole roundrect
+			(at 2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 4 "GNDREF")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "71dcbc36-0ccf-41b8-9a31-518a8350538d")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-KRE 2 pinos.STEP"
+			(offset
+				(xyz 0 0.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Conector KRE"
+		(layer "F.Cu")
+		(uuid "278d0eef-e2f4-49ea-b1c5-d6e3d543f2f0")
+		(at 122.1 101.3)
+		(property "Reference" "J5"
+			(at 0.06 -8 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7b9750c5-51cb-4167-b74e-9fb07a974438")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 4.6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4c204701-61f0-48fd-9204-cca5bd7fe597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfa130cd-99d8-4b13-8622-33726e93b5fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "babb8b4d-06a1-48fb-be2f-9a737589bfb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1dfd1822-ce52-40c0-af90-255ae4fb5cd6")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.8 -4)
+			(end -5.1 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "261a0480-e4c1-4d3c-b9c1-0e09cea91ee7")
+		)
+		(fp_line
+			(start -5.8 -2.6)
+			(end -5.8 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3b6d01ed-e640-46ec-8fb3-74f883992540")
+		)
+		(fp_line
+			(start -5.1 -4.8)
+			(end 5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e601f64-0842-4857-bd8e-fb35cd9745ca")
+		)
+		(fp_line
+			(start -5.1 -4)
+			(end -5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "86a94af0-bf58-4a45-82e0-d186a38fb61b")
+		)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.8 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2f007cef-3e4d-4bcf-947d-3de1612968bf")
+		)
+		(fp_line
+			(start -5.1 3.2)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4f31f2bb-f5bc-4fac-88ce-44f0a2f2a8bf")
+		)
+		(fp_line
+			(start -2.511889 1.293843)
+			(end -2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ac8f3bad-f3cb-46fa-a83a-5d9c0ed186fe")
+		)
+		(fp_line
+			(start 2.499858 1.3)
+			(end 2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d82ed1ca-006a-47ec-8787-77553aa3c516")
+		)
+		(fp_line
+			(start 5.1 -4.8)
+			(end 5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1ab4e674-1951-442f-a68c-5b3787b42a1e")
+		)
+		(fp_line
+			(start 5.1 3.2)
+			(end -5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "43489f28-58c0-4fb2-b353-d7237d555e26")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.06 -6.2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "647d9912-31fa-450e-95af-73a56c96df99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "7adee78c-5956-4745-9f89-720d0ead53a3")
+		)
+		(pad "2" thru_hole roundrect
+			(at 2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 9 "Net-(IC1-12{slash}VCC)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "d22d486a-2b6d-4e0f-9ec6-a03d70e67a9b")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-KRE 2 pinos.STEP"
+			(offset
+				(xyz 0 0.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Resistor_1_4W"
+		(layer "F.Cu")
+		(uuid "2946760f-53a9-4cc4-ad6c-3a2070bf4797")
+		(at 156.65 99.5)
+		(property "Reference" "R2"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0379bab7-fa4b-4455-923b-30856ab32a59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c96793b3-6123-412d-97d8-a289d69c9105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d62225f5-58ad-4df8-8792-72068e15f8fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78218702-b67a-46ee-b421-bf70ea32cc0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/2e52fba0-00e8-4f09-acd0-4be54137909a")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.7 -1.2)
+			(end -4.700648 -0.74402)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4bf814a6-ce07-4501-8ad4-10c266529b02")
+		)
+		(fp_line
+			(start -4.7 -1.2)
+			(end 4.7 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8b7dd335-fbdf-4bb8-a2c2-146bbc493fce")
+		)
+		(fp_line
+			(start -4.7 1.2)
+			(end -4.700648 0.759221)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c46158ab-4ec5-4b8a-ac2c-0770c024199e")
+		)
+		(fp_line
+			(start 4.7 -1.2)
+			(end 4.699162 -0.746723)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c05950fd-6fc8-4626-a971-955cab689667")
+		)
+		(fp_line
+			(start 4.7 1.2)
+			(end -4.7 1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "69b72672-7eb6-4fd2-8ac3-2ee2b195f5ce")
+		)
+		(fp_line
+			(start 4.7 1.2)
+			(end 4.696381 0.757502)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cea46105-f166-4161-8f2b-c388b241c394")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "aba4ea61-f15d-4caf-b97e-85ed73c013e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 17 "Net-(IC1-4{slash}NF2)")
+			(pintype "passive")
+			(uuid "cd695b5a-d487-454b-b4f1-8e18fc7641be")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "Net-(C4-Pad1)")
+			(pintype "passive")
+			(uuid "2c3b1c48-4bc5-44d1-ad17-9f7ff5a8f30d")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-Res40-Axial 0_25W-220R.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_7.5mm"
+		(layer "F.Cu")
+		(uuid "372592f6-3133-4105-9dbe-0b20919275bb")
+		(at 138.15 90.95)
+		(property "Reference" "C1"
+			(at 0 -4.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6db1751c-686d-45da-bd25-d6e0e39c19ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 0 4.75 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2cf1f62f-8d66-4644-8406-9bef2933e055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6776c36-9a7a-421b-b49f-d5793d08307d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76e082f3-b06e-4c91-b5ed-93f717531238")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/68fe069a-2802-4595-900b-36ed05e7ee56")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 3 2.25)
+			(end 3 -2.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "54764757-7141-43cb-8991-9dd4c63cae6c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "79d76dd0-df36-4a00-9b21-273dd4404094")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dfea19c7-66c2-41b8-bc92-869eeec7bd89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 1.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 2 "Net-(IC1-2{slash}OUT2)")
+			(pintype "passive")
+			(uuid "b75a20df-2c4f-48f0-a419-42e8883bedf9")
+		)
+		(pad "2" thru_hole circle
+			(at -1.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "Net-(J1-Pin_2)")
+			(pintype "passive")
+			(uuid "4d59b942-95eb-4dcb-9298-455be0a99ee4")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_5mm"
+		(layer "F.Cu")
+		(uuid "395ca039-77d4-4984-ad01-3a68ab0719db")
+		(at 130.801999 62.601999)
+		(property "Reference" "C2"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c7b89037-6a56-43a0-9ad2-8bf6f02b882b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 0 3.8 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c61f39f5-b1ef-40bf-b265-c569633d6a99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9025d9e-b2ec-4144-a95d-320a4d7cb30e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdafdea5-ad1f-4559-ab3c-ae9169c9d43a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/81185aec-c422-40b4-b397-b489143bfcec")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.2 1.2)
+			(end 2.2 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b00c1741-f0d2-42f4-8362-4641fc7d451a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.501999 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "490b7e01-6c63-409b-b189-3893b8b24536")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b6d51f80-6ce7-4952-b48a-13e60d204ab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 3 "Net-(IC1-3{slash}BS2)")
+			(pintype "passive")
+			(uuid "dd586b63-18bf-48bb-86e8-a6ebe81f32f5")
+		)
+		(pad "2" thru_hole circle
+			(at -1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "Net-(IC1-2{slash}OUT2)")
+			(pintype "passive")
+			(uuid "72869a9f-323b-4a6d-a2b7-a5de60d0a36b")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Poliesterg"
+		(layer "F.Cu")
+		(uuid "4a26df4d-bda3-4f6e-875f-91c4d7e5d943")
+		(at 157.45 88.905369)
+		(property "Reference" "C5"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4cdfbf4d-d295-4f88-993a-d7c5d1f41d73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "470nF"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad2a7f2d-3f31-4a49-8645-a2388e2e0c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5d148ba-128e-4da1-a1b3-53cf93b0fb41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f22e9a2-075d-4b71-bc05-bcdbcd57b192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/a86d0bce-7cb3-4eec-ad9a-6c4323100b7f")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3 1.5)
+			(end -3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "1e0eebc1-01dc-4471-b220-7acc22f972b7")
+		)
+		(fp_line
+			(start -2.989844 -1.705369)
+			(end -3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3d3c797b-7c29-48f0-898b-e216d475f6fe")
+		)
+		(fp_line
+			(start -2.989844 -1.705369)
+			(end 3.010156 -1.705369)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "19b2c20f-d106-4aa9-9ee6-f1f2461292f4")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end -3 1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "eac83cd3-fad5-45b0-be69-5dbfa2fe5ee4")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end 3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "233232dd-cca1-4c6a-9077-4f6df2486d41")
+		)
+		(fp_line
+			(start 3.010156 -1.705369)
+			(end 3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5ea734ac-e534-498c-ba64-c9d613284570")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b7aedba9-ab1c-4fbe-9040-4927f5d6c4eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "Net-(C5-Pad1)")
+			(pintype "passive")
+			(uuid "2e6c1f4a-59b2-4670-aa23-70fad12f5e97")
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "Net-(IC1-5{slash}IN2)")
+			(pintype "passive")
+			(uuid "cd36c7c6-24a8-4f5c-9a16-aea374dae971")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "aavirk:Potenciometro_dual"
+		(layer "F.Cu")
+		(uuid "51902a6b-ed42-4578-a92f-0cc5337184b4")
+		(at 143.4 65.1)
+		(property "Reference" "RV1"
+			(at 0.2 -6.6 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8b1e8a5a-0143-4a70-a679-effad6507147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 0 22.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a9452968-510a-4911-9850-80d63b3fe1a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36e3113e-fea1-45f3-a1da-3ea52f17d435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Dual potentiometer"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cbad7b4-9cf9-4d01-a4af-610cc0ac6cfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
+		(path "/b857ae28-4b92-4e2a-a6da-3514f951378d")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -9 -5)
+			(end -9 5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8b6a87d7-0660-4727-a853-33f532efc104")
+		)
+		(fp_line
+			(start -9 5)
+			(end -3 5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cbd5b759-fb5a-470a-9609-0663289bc2c4")
+		)
+		(fp_line
+			(start -3 5)
+			(end -3 21)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c9a45596-66cc-4375-b4b8-23478d4759ff")
+		)
+		(fp_line
+			(start -3 21)
+			(end 3 21)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "af9cc213-a463-4bdb-a9d8-c35617c9990b")
+		)
+		(fp_line
+			(start 3 5)
+			(end 9 5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "13fed9c5-9c81-40cd-982e-211e7ad39ea9")
+		)
+		(fp_line
+			(start 3 21)
+			(end 3 5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8df427fc-74c6-4548-831e-88a78889072a")
+		)
+		(fp_line
+			(start 9 -5)
+			(end -9 -5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ba62b7c9-e474-4068-91e6-294225349bd6")
+		)
+		(fp_line
+			(start 9 5)
+			(end 9 -5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ad7181cd-9fd4-4f60-8d94-a093cbd01b82")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a80d4ef4-6781-4a6a-83a6-c55c689581b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -5 1.8 180)
+			(size 2.3 2.3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "Net-(J3-Pin_1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "bda47d0e-e11d-437d-8bfb-55658891b8f2")
+		)
+		(pad "2" thru_hole roundrect
+			(at 0 1.8 180)
+			(size 2.3 2.3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.1086956522)
+			(net 11 "Net-(C8-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "e536c183-6944-478a-a939-cc3c3e7b90fd")
+		)
+		(pad "3" thru_hole circle
+			(at 5 1.8 180)
+			(size 2.3 2.3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "a3c35558-5249-42da-9576-e53238a0d93d")
+		)
+		(pad "4" thru_hole circle
+			(at -5 -3 180)
+			(size 2.3 2.3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "Net-(J2-Pin_2)")
+			(pinfunction "4")
+			(pintype "passive")
+			(uuid "79d9a21b-27b4-4a93-9314-d8425fe2ef03")
+		)
+		(pad "5" thru_hole roundrect
+			(at 0 -3 180)
+			(size 2.3 2.3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.1086956522)
+			(net 6 "Net-(C5-Pad1)")
+			(pinfunction "5")
+			(pintype "passive")
+			(uuid "efd769ab-8fdf-4b1e-9e82-5867690e62e9")
+		)
+		(pad "6" thru_hole circle
+			(at 5 -3 180)
+			(size 2.3 2.3)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "6")
+			(pintype "passive")
+			(uuid "80b4e0e6-8543-436e-9ff5-5b553b79a546")
+		)
+		(group ""
+			(uuid "44b441ed-28b1-427a-97fa-a23a1bf34d01")
+			(members "8b1e8a5a-0143-4a70-a679-effad6507147")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/PotentiometerAssy.STEP"
+			(offset
+				(xyz 17 3 12)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Conector KRE"
+		(layer "F.Cu")
+		(uuid "746bbb83-ebe4-4ad5-9996-094f021791ee")
+		(at 122.1 74)
+		(property "Reference" "J2"
+			(at 0.06 -8 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c166a972-0119-4a69-9e1b-c1d50526ed46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 4.6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0c2c7900-4086-45e0-b222-951896b659e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f62fe23-1e4a-4441-bd18-3decca077df7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad640c7d-08b6-4b89-b090-52e3a654be00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/a34494af-d86f-4e8d-ac33-bf45cbaad574")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.8 -4)
+			(end -5.1 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ca4abe8f-fb90-4dd7-948c-8570ff3b1b12")
+		)
+		(fp_line
+			(start -5.8 -2.6)
+			(end -5.8 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8cd1ea38-a492-4eac-ba87-ffbeaa9b083f")
+		)
+		(fp_line
+			(start -5.1 -4.8)
+			(end 5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "60050a00-f8f3-4b75-a3c6-160d737b7690")
+		)
+		(fp_line
+			(start -5.1 -4)
+			(end -5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "da7b99af-cd12-40ab-adbf-711403879c7f")
+		)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.8 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b87f1b38-1d88-4427-b7b4-7340c856663a")
+		)
+		(fp_line
+			(start -5.1 3.2)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "cf933714-2ee5-4ce0-b306-5fb0404c0639")
+		)
+		(fp_line
+			(start -2.511889 1.293843)
+			(end -2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92625032-6586-4a04-a501-99d47d8c7510")
+		)
+		(fp_line
+			(start 2.499858 1.3)
+			(end 2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ae236a2-5c55-40c5-a274-fda809a0b04b")
+		)
+		(fp_line
+			(start 5.1 -4.8)
+			(end 5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "804a2442-62e7-4d5a-bed2-a9c00fa36e02")
+		)
+		(fp_line
+			(start 5.1 3.2)
+			(end -5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ab1cf271-c547-4978-9b49-7bf7e49b8695")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.06 -6.2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "090d58d9-1f69-43ab-8d3f-0a864502d145")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "58e96702-018c-4bec-8f37-075fec746fb7")
+		)
+		(pad "2" thru_hole roundrect
+			(at 2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 19 "Net-(J2-Pin_2)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "faa8c5ba-0932-41f9-b353-44f54f35fd2f")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-KRE 2 pinos.STEP"
+			(offset
+				(xyz 0 0.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_5mm"
+		(layer "F.Cu")
+		(uuid "90ef7683-afc3-4043-860b-9b6c71c5dee0")
+		(at 130.801999 74.809995)
+		(property "Reference" "C6"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3a620966-83af-4d3a-920d-e0598308b7df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 0 3.8 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "df4ef214-3325-4d78-96cc-17ad377accc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a52797-48a6-47db-97d6-0e45f3d3be33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9c14f68-ec90-407f-b4f3-28b4db9cc67e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/1362856b-b192-47a4-9245-6fc5e3a27440")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.2 1.2)
+			(end 2.2 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e0ee4ecb-ede1-452e-85df-ee39bd03d2c7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.501999 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4c416ff4-7749-4bdf-9c2f-fec6dfbdf833")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c497df5a-1591-43bf-a6f5-0ac38606e34e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 8 "Net-(IC1-6{slash}DC)")
+			(pintype "passive")
+			(uuid "06236858-5bf0-41f0-8228-8e138068aa77")
+		)
+		(pad "2" thru_hole circle
+			(at -1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pintype "passive")
+			(uuid "5ded3b95-894d-498b-817a-675209e351cb")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(footprint "aavirk:Resistor_1_4W"
+		(layer "F.Cu")
+		(uuid "926ac3f2-0d14-4fd4-a29b-1ce560df2bbc")
+		(at 156.65 103)
+		(property "Reference" "R3"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6ad240e5-6ba3-4424-a3e0-e0f19540206d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4b06b974-07b1-42eb-9b7a-4afa0d5ebb2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3610904-baf1-43aa-bf06-3f2b33261c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac8de5ec-4d8a-4ba0-a311-67789ffdda5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/6389b5da-3c5e-4ac6-ac6f-49f6aa3b8dca")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -4.7 -1.2)
+			(end -4.700648 -0.74402)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "e6421176-a869-478d-b32e-6f1c4efabdc7")
+		)
+		(fp_line
+			(start -4.7 -1.2)
+			(end 4.7 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "db1056f8-85ee-4708-8d4c-51c53591c1b7")
+		)
+		(fp_line
+			(start -4.7 1.2)
+			(end -4.700648 0.759221)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "96ac1380-6752-41f2-998b-9c5d442c8912")
+		)
+		(fp_line
+			(start 4.7 -1.2)
+			(end 4.699162 -0.746723)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "99944063-0f94-4aed-be76-b67b098d7e47")
+		)
+		(fp_line
+			(start 4.7 1.2)
+			(end -4.7 1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b88e215b-42f6-4ba1-a28d-8e30a67f939f")
+		)
+		(fp_line
+			(start 4.7 1.2)
+			(end 4.696381 0.757502)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "63ec40a7-30b7-42e1-92c3-81e11346db5f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "374f2f00-cd0f-4931-ad65-1c112c3c39b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "Net-(IC1-9{slash}NF1)")
+			(pintype "passive")
+			(uuid "bacccaab-e912-4d26-9dca-03d1dd4bb784")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "Net-(C9-Pad1)")
+			(pintype "passive")
+			(uuid "46f84936-8fdb-4398-b7ad-0893e8eef6f2")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-Res40-Axial 0_25W-220R.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Poliesterg"
+		(layer "F.Cu")
+		(uuid "a1ab4777-1df8-4b43-bcfe-78934bec06a8")
+		(at 157.45 93.210738)
+		(property "Reference" "C8"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a4f1229b-f5ad-4925-9382-b613ef807b4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cc845cd-ce0f-4c54-86ee-7748aa2c707a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "917ed202-9edd-426c-8139-4515cad32896")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d866affc-a4a6-440b-acc9-24d2b87dd073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/7d29c057-5116-4e8d-80eb-6f2e68d55c9b")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3 1.5)
+			(end -3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "05fe5263-1b3b-4976-afd2-317be8253c7e")
+		)
+		(fp_line
+			(start -2.989844 -1.705369)
+			(end -3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b86ce8ba-4dfa-4d38-aab7-b0a5a08605dd")
+		)
+		(fp_line
+			(start -2.989844 -1.705369)
+			(end 3.010156 -1.705369)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "77d9cb1d-37e5-4bbd-8e32-9c6b782358a5")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end -3 1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c45c2d79-2ae7-44ba-9690-8bd6b3311c61")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end 3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7652ab79-f232-4873-98cd-89c51b513a8f")
+		)
+		(fp_line
+			(start 3.010156 -1.705369)
+			(end 3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "52ff8453-0819-4a76-ac7a-940b144a89a8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "703e4e4a-eb4c-4311-9215-9a8f256e1b49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "Net-(C8-Pad1)")
+			(pintype "passive")
+			(uuid "b347aa51-6b26-4679-87f5-f4a46817b8b8")
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "Net-(IC1-8{slash}IN1)")
+			(pintype "passive")
+			(uuid "3f3e2c2a-6d71-490d-9ca1-df437e4bed85")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_5mm"
+		(layer "F.Cu")
+		(uuid "a7381ed0-4fd1-4101-9680-439b55f9a782")
+		(at 130.801999 80.913993)
+		(property "Reference" "C9"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ad28595b-82ed-4b1a-84f2-adcfc05e10c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 0 3.8 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e131a79e-7c53-407b-b477-214ba6cc8e97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57c36a1f-d887-4a79-b2e6-a351d262647a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc6d3e76-2c86-409c-a05e-d0b3fd29bdbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/140092a0-5fdf-4be9-887f-001c03c3883c")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.2 1.2)
+			(end 2.2 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a369a821-590d-4a0f-a96e-6a57f9f641d5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.501999 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ba1ed22c-0db8-438f-9a51-6ab173cf70d6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d620f970-f7b5-4db2-a4aa-5af5a8062f39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 12 "Net-(C9-Pad1)")
+			(pintype "passive")
+			(uuid "3576fef8-d777-4b94-b4e8-a4072d6d123d")
+		)
+		(pad "2" thru_hole circle
+			(at -1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pintype "passive")
+			(uuid "e0c0ab74-82de-4c2f-8c8b-128605d9b01c")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_5mm"
+		(layer "F.Cu")
+		(uuid "b22528c5-2b04-4959-8283-39b1e27a9a62")
+		(at 130.801999 68.705997)
+		(property "Reference" "C4"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "220e9304-9162-4ecf-83f3-bc5a59dfed2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 0 3.8 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "de460b71-99fd-413d-a069-dbe462866b95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd907d0d-7de8-4f72-8ef6-76584cc9ca52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "745be5ec-f635-42a8-8b94-ed2dd6ebb690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/ae93dbfc-579d-43e0-8051-1a3215162124")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.2 1.2)
+			(end 2.2 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "408ee338-5edd-4b9b-baef-8f984acf87bb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.501999 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d07f592d-c033-425b-abb7-1f1d6cb37afe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f36f2ece-ee4f-44a2-bbcc-b501da6de4a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 5 "Net-(C4-Pad1)")
+			(pintype "passive")
+			(uuid "e40714d6-8018-4526-a6a3-b7e702c3def7")
+		)
+		(pad "2" thru_hole circle
+			(at -1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pintype "passive")
+			(uuid "7095abc1-c800-400c-819e-7371100135e8")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_7.5mm"
+		(layer "F.Cu")
+		(uuid "b2454fc7-8db7-4fcd-9a32-b9df6eca3718")
+		(at 138.15 99.55)
+		(property "Reference" "C12"
+			(at 0 -4.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3d547530-fa68-461b-9c06-2cf90c2a1a2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 0 4.75 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f0068cee-ed89-4642-841f-7b8268efdf8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07c45f2c-2d92-4378-ad9a-8d15a21c4b5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5df371ae-6f94-4eb0-8492-dadd2d78f54a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/4f8b33bb-7f7c-4e2b-9a24-af42bfaa5331")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 3 2.25)
+			(end 3 -2.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d2c82c2d-3473-4757-a774-d5a072a4b3d5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "1318e0c1-d4a4-4448-9e32-66967a761ec1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f4250ca2-d7ad-45dc-bb8a-8e5740a006b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 1.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 13 "Net-(IC1-11{slash}OUT1)")
+			(pintype "passive")
+			(uuid "5fa207e1-88ea-4290-b54a-a59f0478c046")
+		)
+		(pad "2" thru_hole circle
+			(at -1.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "Net-(J4-Pin_1)")
+			(pintype "passive")
+			(uuid "210f1cfc-1f3a-45b9-a8e2-e92be330238f")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(footprint "aavirk:Circuito integrado"
+		(layer "F.Cu")
+		(uuid "c460c22c-baee-4c2e-91f5-04565a3ee954")
+		(at 159.5 73.5)
+		(property "Reference" "IC1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e43e91be-53ef-4ead-a284-0e3dadbb23c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "LA4182"
+			(at 0 -11 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bb193aca-1587-4aee-b6fc-cc60ee61ac4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b80cf9e9-508e-48bd-b24d-fb28c295d8fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da6b8782-af1a-4b66-9546-a5b2674450f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Not Specified"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a50a5ce-f41a-4966-96cf-2227ba8ea7eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "CILA 4182 AMPLI STÉRÉO 2X2.3W (9V 4OHMS)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ddf1c4a-0660-465f-9403-87ad02569a16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "994a2a4b-3e2e-43d2-ad6c-65a0fb121e0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55be4d1e-6fee-4027-8619-b88c305e3286")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2eac294-49d1-4296-9609-c59a9048736f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "LA4182"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "863be350-073e-455d-843b-6eec36ee4f17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7eebb840-22b3-4e67-be73-c8ee69ba5642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99a63aa9-eb31-4b1d-bcc5-5014617775fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a4975014-d883-4deb-80f6-dee181d13f8f")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.06 -9.95)
+			(end -2.06 10.49)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7a18a7d0-2bce-4d0a-aafc-ee5b2ff89b2e")
+		)
+		(fp_line
+			(start -2.06 10.49)
+			(end 2.44 10.49)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bcd7a31b-094f-4c9f-a73a-bf1bc63f0eb6")
+		)
+		(fp_line
+			(start -0.81 -9.95)
+			(end -2.06 -9.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "903ce24e-1cfa-481a-ad9a-346140486b74")
+		)
+		(fp_line
+			(start 2.44 -9.95)
+			(end 1.19 -9.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f68b80d-a055-4e01-a779-e32f2dfe1bfd")
+		)
+		(fp_line
+			(start 2.44 10.49)
+			(end 2.44 -9.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "537a86a2-5d9a-4ccc-b86a-f96d6bf02c15")
+		)
+		(fp_arc
+			(start 1.19 -9.95)
+			(mid 0.19 -8.95)
+			(end -0.81 -9.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cd527704-e961-4350-ae9d-64c19c9b042a")
+		)
+		(fp_rect
+			(start -5.07 -10.14)
+			(end 5.45 10.68)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ef684772-88d4-4b95-b2ff-530a02d83159")
+		)
+		(fp_line
+			(start -2.985 -8.89)
+			(end -1.985 -9.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b430b3f-1ac6-4938-85f7-a5dd693a27fc")
+		)
+		(fp_line
+			(start -2.985 10.43)
+			(end -2.985 -8.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c70b36eb-3282-44cd-b769-1a3a358b993d")
+		)
+		(fp_line
+			(start -1.985 -9.89)
+			(end 3.365 -9.89)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a251bd4-e4ba-49c9-a274-0e69f5303c4d")
+		)
+		(fp_line
+			(start 3.365 -9.89)
+			(end 3.365 10.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef0c9c02-2138-41e4-b621-ff0720654afc")
+		)
+		(fp_line
+			(start 3.365 10.43)
+			(end -2.985 10.43)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1d0786b2-3112-4903-8b94-ec77289c6971")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dfa038f7-4891-4b66-86a3-2ccd9b8214df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at -3.62 -8.62)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 4 "GNDREF")
+			(pinfunction "1/BOUT")
+			(pintype "bidirectional")
+			(uuid "827bb279-1bd2-4bf2-8f12-2ae5e6731e4b")
+		)
+		(pad "2" thru_hole oval
+			(at -3.62 -6.08)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "Net-(IC1-2{slash}OUT2)")
+			(pinfunction "2/OUT2")
+			(pintype "output")
+			(uuid "475c81ea-bc05-47c9-8d58-31bba70614b8")
+		)
+		(pad "3" thru_hole oval
+			(at -3.62 -3.54)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "Net-(IC1-3{slash}BS2)")
+			(pinfunction "3/BS2")
+			(pintype "bidirectional")
+			(uuid "61e84011-e8c6-4438-bbce-47133d2385f7")
+		)
+		(pad "4" thru_hole oval
+			(at -3.62 4.08)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 17 "Net-(IC1-4{slash}NF2)")
+			(pinfunction "4/NF2")
+			(pintype "bidirectional")
+			(uuid "08b4e89c-2705-48a4-a1b0-ef5c55aeb099")
+		)
+		(pad "5" thru_hole oval
+			(at -3.62 6.62)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "Net-(IC1-5{slash}IN2)")
+			(pinfunction "5/IN2")
+			(pintype "input")
+			(uuid "8f579e8e-1a91-42be-a78d-0a84f82e55b4")
+		)
+		(pad "6" thru_hole oval
+			(at -3.62 9.16)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "Net-(IC1-6{slash}DC)")
+			(pinfunction "6/DC")
+			(pintype "bidirectional")
+			(uuid "7f272496-1211-46f9-9c26-35ca95b1153b")
+		)
+		(pad "7" thru_hole oval
+			(at 4 9.16)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "7/PGND")
+			(pintype "power_in")
+			(uuid "6a7080c5-229d-4222-943c-4aefb898917c")
+		)
+		(pad "8" thru_hole oval
+			(at 4 6.62)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "Net-(IC1-8{slash}IN1)")
+			(pinfunction "8/IN1")
+			(pintype "input")
+			(uuid "c61c8a24-75ec-4a51-a182-f19dc6225911")
+		)
+		(pad "9" thru_hole oval
+			(at 4 4.08)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "Net-(IC1-9{slash}NF1)")
+			(pinfunction "9/NF1")
+			(pintype "bidirectional")
+			(uuid "2b88c611-767e-47b7-8e77-2678e77bbd23")
+		)
+		(pad "10" thru_hole oval
+			(at 4 -3.54)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "Net-(IC1-10{slash}BS1)")
+			(pinfunction "10/BS1")
+			(pintype "bidirectional")
+			(uuid "95b9f2d2-84e9-4763-9893-e6a1a0a79d01")
+		)
+		(pad "11" thru_hole oval
+			(at 4 -6.08)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 13 "Net-(IC1-11{slash}OUT1)")
+			(pinfunction "11/OUT1")
+			(pintype "output")
+			(uuid "827fc208-fc25-4c7a-b8f1-bb27a993da86")
+		)
+		(pad "12" thru_hole oval
+			(at 4 -8.62)
+			(size 2.4 1.6)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "Net-(IC1-12{slash}VCC)")
+			(pinfunction "12/VCC")
+			(pintype "power_in")
+			(uuid "8dae6239-2db0-475a-bbe1-1e84defdffaa")
+		)
+		(pad "P$1" thru_hole oval
+			(at -3.6 0.3)
+			(size 2.4 4)
+			(drill oval 1 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "PAGND")
+			(pintype "power_in")
+			(uuid "a047f761-d8ee-4dfb-af2a-d21cecc2d059")
+		)
+		(pad "P$4" thru_hole oval
+			(at 4 0.3)
+			(size 2.4 4)
+			(drill oval 1 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "PAGND1")
+			(pintype "power_in")
+			(uuid "8bdd908a-a865-4e80-9383-540c0cbd7572")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_10mm"
+		(layer "F.Cu")
+		(uuid "d04c5f07-e24b-498e-ab7d-a294028dbd21")
+		(at 148 92.2)
+		(property "Reference" "C7"
+			(at 0 -6 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "41af06f7-5292-4d26-8b38-16d435626d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 0 6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a4c0fee1-dded-4b11-b976-3df875b630bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcb01277-582b-41bb-badf-b140c82eaa69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7de5471c-769b-476f-9ab5-1d4a5f02b29a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/3eda06b8-a644-4b9e-847a-e4bf73d06a27")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 4 3)
+			(end 4 -3)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f847290f-0f7d-4427-802b-f1fb3c2bff84")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "44482600-c43b-479d-b7e7-ef57bd2f45bc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a4eef4d7-3325-4475-9dc6-e60978d2249b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 9 "Net-(IC1-12{slash}VCC)")
+			(pintype "passive")
+			(uuid "a2e6ce6f-5774-468e-9cce-81bfb2312bd9")
+		)
+		(pad "2" thru_hole circle
+			(at -2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pintype "passive")
+			(uuid "647bd2f1-efcd-4dde-b4b2-5deff10b9947")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(footprint "aavirk:Conector KRE"
+		(layer "F.Cu")
+		(uuid "e2fb7789-0c46-4658-933b-ea7dcc3e9c91")
+		(at 122.1 64.9)
+		(property "Reference" "J1"
+			(at 0.06 -8 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "07d81700-f696-48ef-8d2a-663452845bb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 4.6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dbb21ecf-7dde-4585-b6e7-791360a73918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b6429bb-966d-4dcd-ab46-ceec79719e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e69cea8e-3cb3-4767-9489-9508e95cd125")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/24c6a140-69b4-403e-b2df-cb81f56c931f")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -5.8 -4)
+			(end -5.1 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "f2007ac5-1ba6-4b1a-8e06-7ec5df2ccb6a")
+		)
+		(fp_line
+			(start -5.8 -2.6)
+			(end -5.8 -4)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "09221a11-8fe2-4f3f-a3ef-6738b9b0b3c5")
+		)
+		(fp_line
+			(start -5.1 -4.8)
+			(end 5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b5b5d9d-655a-4dd6-8e7f-7cd83bfd3bc9")
+		)
+		(fp_line
+			(start -5.1 -4)
+			(end -5.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "516187db-22b2-42b4-babe-a0d32db9a38f")
+		)
+		(fp_line
+			(start -5.1 -2.6)
+			(end -5.8 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2304d36d-2463-4ab2-a43e-65e2bb67135d")
+		)
+		(fp_line
+			(start -5.1 3.2)
+			(end -5.1 -2.6)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c81797ae-f02b-4748-b402-0e96daa17640")
+		)
+		(fp_line
+			(start -2.511889 1.293843)
+			(end -2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11ec2200-401b-4e3c-bbf3-9245496befd8")
+		)
+		(fp_line
+			(start 2.499858 1.3)
+			(end 2.5 3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2e9134ca-0b14-4e8a-8c7c-8c8f28effad6")
+		)
+		(fp_line
+			(start 5.1 -4.8)
+			(end 5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab8e7105-46ba-4c10-9f0a-c176185d4a63")
+		)
+		(fp_line
+			(start 5.1 3.2)
+			(end -5.1 3.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6795dcfb-ff50-45f1-87ce-17ca3cd112e2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.06 -6.2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dc8d05b4-7570-4a86-bcd5-cd551a5191a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "4f6c9016-5d79-4b54-83df-2313f3665da5")
+		)
+		(pad "2" thru_hole roundrect
+			(at 2.5 0 180)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.125)
+			(net 1 "Net-(J1-Pin_2)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "ecd0bc1b-6252-4229-ac3c-efad291d84c7")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/User Library-KRE 2 pinos.STEP"
+			(offset
+				(xyz 0 0.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Poliesterp"
+		(layer "F.Cu")
+		(uuid "e40b94b4-8130-497c-b0cd-ba17f56053d6")
+		(at 146.35 103.9)
+		(property "Reference" "C11"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1620f08b-8afc-44ec-8291-9c050b2e440c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "150nF"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2035fb78-7cfd-463b-af22-133cf1b38cea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50f57e7c-c345-4d5e-8a96-5ed26eabf2ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18ff9b8e-c0f9-44d0-8092-e3b28114c236")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/eff1e97a-802f-4e32-be05-fca23e59a4d4")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3 -1.5)
+			(end -3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "474304fa-3243-42e9-b0ca-8f91906d4e6d")
+		)
+		(fp_line
+			(start -3 -1.5)
+			(end 3 -1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d0c607a3-e293-43ab-9ea8-d92c0716eda6")
+		)
+		(fp_line
+			(start -3 1.5)
+			(end -3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b3043c1f-4120-4102-ba75-c007d77b5526")
+		)
+		(fp_line
+			(start 3 -1.5)
+			(end 3 -1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0c356559-a29c-477e-a2d2-1da5f1d85596")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end -3 1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d098fb00-c4e4-433b-b2ab-534bc1e69358")
+		)
+		(fp_line
+			(start 3 1.5)
+			(end 3 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7ff2fb9a-4dd7-45b0-9d26-9a9a03776c4e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "38dda32c-00fd-41e4-8316-33e7a1942169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 13 "Net-(IC1-11{slash}OUT1)")
+			(pintype "passive")
+			(uuid "f16816b5-5e79-4a12-b990-55556ffea2fb")
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "GNDREF")
+			(pintype "passive")
+			(uuid "c7a1effb-8158-4c3e-ab00-fd2193cf4101")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/c322c104k5r5ta.stp"
+			(offset
+				(xyz -2.5 1.5 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "aavirk:Capacitor_Eletrolítico_5mm"
+		(layer "F.Cu")
+		(uuid "e54f3ff2-31c7-4d6d-a048-9fe110b541e2")
+		(at 130.801999 87.017991)
+		(property "Reference" "C10"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "43495930-2e4d-4339-95f0-bd04f325dce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 0 3.8 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "85fe774a-1a33-411a-ad3d-844b40bf3304")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bd370b3-c3e3-4d3b-9058-a95e67b1842b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "408438ed-7f2e-407e-a36f-72b9b72b22ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CP_*")
+		(path "/b3dc64cb-1af7-43fc-8aec-2e349e824760")
+		(sheetname "/")
+		(sheetfile "Projeto2025.2.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 2.2 1.2)
+			(end 2.2 -1.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "73959b66-5975-469e-b2a0-721004014d93")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.501999 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "4580ae42-2bcb-4491-881e-8a4e1db0830d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "81f28d95-f1d1-4e66-9dea-318926e1c990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15625)
+			(net 14 "Net-(IC1-10{slash}BS1)")
+			(pintype "passive")
+			(uuid "de08662a-2080-434f-866f-068ddefe3a90")
+		)
+		(pad "2" thru_hole circle
+			(at -1 0 180)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 13 "Net-(IC1-11{slash}OUT1)")
+			(pintype "passive")
+			(uuid "93359d6e-7636-4ab1-8e51-8a3a75455177")
+		)
+		(embedded_fonts no)
+		(model "E:/KiCad/3D/1815401.stp"
+			(offset
+				(xyz 0 0 11.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -90)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "ALSRobot-LED Red 5mm.STEP")
+			(type model)
+			(data |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
+				J2e5O/tvxo7cs5M6Qz1jj3fP7Go0661mFDMKspOZbTTNjpZW7E7kRZmJlbhFK2v1xjpK71f3o/Fu
+				dLPdTu3NNhf+9TYQETA4Ghw3kyIja89FVj0ila5ofpsrsU6ymdOY1I3vmfXrY+fM0DdWwo6N3SRj
+				J2SzSRe1mediq63sWpv5alarWZXVqDbzck3o/s7TkrTWeGVHo5HpotGINjQToX145FyoLU3RtOIp
+				niZrtIvMkdlzi/YtF6JB4Z2i8UiKUYmxiswXmxNahcRoqharmItiNXkXZMdfkX1VV2QXrxbmfEV3
+				yJODOEAERAEqKCIgGA5Gi1wkAKJBIoKIiQqrsjpTPZwaWdnZR6pmK6KIzd+r8p2RW60i9VU1tcxX
+				qppykZxZia3qRihFLnZRZfRLStWil9wUjV+uvmrk7le8KkdeVEZVVMaiMqLyULVMVSr7iPRpleot
+				66PRVNWUmFw9F9HUnTbVKd7UGMvIddfLwysao6hM47pTxYwStfe5zu6stVDUGWMdW3S61WldOpHL
+				atWwZS0aizx1U9vEGtZ9lnHKOpJlqTmTYrm4qLt5pVopd+pVUu9dQynaIzwSKde/G9X9d+c7b0dV
+				ulaLczPunWp4b5mMXvXOorOTY7uIefpNb2I/O91j7STUl0X1Or3MkbdTZFPvX63zVuJ63Xkbk/9u
+				1Rve73vkrxY+zdSz6CaZnuhVKjO9dNL5W+jEY3PLaeZnnhyt7rwfz+cs6t2313S/xObM2Sc7Ntcq
+				pzpuVY58qzat2FttvToulk/MYpFVwyqL/5BlFqWkMvOh+6YYfNtPilKUotSc7VyUsi6kxIaOM3a/
+				zi9W9+Lv9zsRDXk+cnfHPp6WmXP53G7b3pOkVXii2NWRNSwaa511nqQM1csuzHpdhDzX390vwd5b
+				/bR/+0//998vzpyQcKEqdF7KdP7+VQ2H7md25VndUw39Q5/STX9lXn5IKuYp5rST79hYvuLULskQ
+				GWx2fftF9o8XTs50YT0SL3r/+vo3Ip6rv2NLnXHPnmTfG5mcxCS+svgpz5MferFDoU/i8j3deXIS
+				Irn0ZhOav2wzVmKXy0VOIpo6IjueiL0j1vloWlNrVEZGtLoV7W6MNRofyw4Jr6heaJzFrCc2z67s
+				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
+				WWbnQn62sD7KOg==|
+			)
+			(checksum "56CB8494091C1F4C084D3517CC7EED0D")
+		)
+	)
 )
