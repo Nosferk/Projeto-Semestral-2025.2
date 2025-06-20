@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
 		(start -9 -5)
 		(end -9 5)
@@ -181,9 +181,8 @@
 		(uuid "368916e4-b537-4b73-882b-38eb00b7ba94")
 		(members "12987437-ec35-4ee2-a3c3-e7426658931b" "242002e9-e160-4a8d-bb1f-f71c50fe59bf"
 			"2b620cc3-6e1c-4afa-ae17-d626a537cbb2" "5d71c315-697a-4bf6-90a5-d1eaff9aed45"
-			"642aae1f-9b28-4c76-bc32-914fec0f7cb6" "95c5b292-9574-4df8-95af-7fb139dcbcbf"
-			"973d50e7-67ba-4561-96c5-aa39cd7c74a7" "b6e5e5b0-bafa-4e38-8560-beca83798cfc"
-			"eb3c1961-9546-4bfa-9be3-7179cd6ced09"
+			"95c5b292-9574-4df8-95af-7fb139dcbcbf" "973d50e7-67ba-4561-96c5-aa39cd7c74a7"
+			"b6e5e5b0-bafa-4e38-8560-beca83798cfc" "eb3c1961-9546-4bfa-9be3-7179cd6ced09"
 		)
 	)
 	(group ""
