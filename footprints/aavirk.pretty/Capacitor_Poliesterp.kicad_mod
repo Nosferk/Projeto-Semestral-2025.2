@@ -143,12 +143,12 @@
 		(uuid "1f6b0606-da38-421d-a10c-36ae3cbc5294")
 	)
 	(embedded_fonts no)
-	(model "E:/KiCad/3D/c322c104k5r5ta.stp"
+	(model "F:/arquivos/Dowloads/3d/capacitor_rnd_150mkt103k2ab.stp"
 		(offset
-			(xyz -2.5 1.5 3)
+			(xyz -3.2 0 0.3)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.5 0.5 0.6)
 		)
 		(rotate
 			(xyz -90 -0 -0)

@@ -105,15 +105,15 @@
 		(uuid "c7b0ee8b-6c6e-486d-b8e8-18220120ec83")
 	)
 	(embedded_fonts no)
-	(model "E:/KiCad/3D/1815401.stp"
+	(model "F:/arquivos/Dowloads/3d/470uF/470uF 16V electr 8 x12mm -P.diameter 3.5mm-Black-White.stp"
 		(offset
-			(xyz 0 0 11.5)
+			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.9 1 1)
 		)
 		(rotate
-			(xyz -0 -90 -90)
+			(xyz 90 -180 -180)
 		)
 	)
 )
