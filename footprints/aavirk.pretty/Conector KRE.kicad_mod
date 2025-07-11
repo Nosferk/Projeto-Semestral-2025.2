@@ -184,7 +184,7 @@
 		(uuid "c21200c0-7f4a-48be-bd26-ffd4f3e05c9f")
 	)
 	(embedded_fonts no)
-	(model "E:/KiCad/3D/User Library-KRE 2 pinos.STEP"
+	(model "${PROJETOEX3D}/KRE.step"
 		(offset
 			(xyz 0 0.8 0)
 		)

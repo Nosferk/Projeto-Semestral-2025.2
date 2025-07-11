@@ -143,15 +143,15 @@
 		(uuid "0cf4dd5f-b4ae-4ca8-8c35-04c6901ccf32")
 	)
 	(embedded_fonts no)
-	(model "E:/KiCad/3D/User Library-Res40-Axial 0_25W-220R.step"
+	(model "${PROJETOEX3D}/R1K.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

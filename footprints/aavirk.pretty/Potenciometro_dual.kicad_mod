@@ -201,12 +201,12 @@
 		(members "5af49edb-44d5-457d-99d2-86a02216f903")
 	)
 	(embedded_fonts no)
-	(model "E:/KiCad/3D/PotentiometerAssy.STEP"
+	(model "${PROJETOEX3D}/Pot_two_PCB.STEP"
 		(offset
-			(xyz 17 3 12)
+			(xyz 0 3.5 12.5)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 0.9 0.9)
 		)
 		(rotate
 			(xyz -90 -0 -0)

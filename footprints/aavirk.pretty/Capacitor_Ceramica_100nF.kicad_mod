@@ -7,7 +7,7 @@
 		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "553c4741-5fe2-40ad-98b2-35780b1f0e8c")
+		(uuid "ca70b3db-01df-4d85-8d5a-073c2e693e5f")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ce071fb2-eeb5-4a6a-bc9f-ea1911b52e22")
+		(uuid "6a3a6b59-5211-4659-a741-d875639ef535")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b3f25d88-1ead-413b-873c-321e230ed3b7")
+		(uuid "10237fa0-5305-4d4f-a867-8ec7d170db3d")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4b2ac0dc-0b86-4d13-941f-b78633a07d44")
+		(uuid "f1d6873b-706e-4074-9609-9cc7d60894a8")
 		(effects
 			(font
 				(size 1 1)
@@ -143,12 +143,12 @@
 		(uuid "1f6b0606-da38-421d-a10c-36ae3cbc5294")
 	)
 	(embedded_fonts no)
-	(model "E:/KiCad/3D/c322c104k5r5ta.stp"
+	(model "${PROJETOEX3D}/capacitor_rnd_150mkt103k2ab.stp"
 		(offset
-			(xyz -2.5 1.5 3)
+			(xyz -3.3 0 0.5)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.5 0.4001 0.4)
 		)
 		(rotate
 			(xyz -90 -0 -0)

@@ -302,4 +302,15 @@
 		(uuid "f3366f7d-d3d8-4655-8380-0f0a0a313111")
 	)
 	(embedded_fonts no)
+	(model "${PROJETOEX3D}/Untitled.glb.STEP"
+		(offset
+			(xyz 0.2 -0.3 2)
+		)
+		(scale
+			(xyz 0.92 0.9 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

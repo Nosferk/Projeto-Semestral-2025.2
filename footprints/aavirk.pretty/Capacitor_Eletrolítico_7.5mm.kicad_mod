@@ -105,7 +105,7 @@
 		(uuid "c7b0ee8b-6c6e-486d-b8e8-18220120ec83")
 	)
 	(embedded_fonts no)
-	(model "F:/arquivos/Dowloads/3d/470uF/470uF 16V electr 8 x12mm -P.diameter 3.5mm-Black-White.stp"
+	(model "${PROJETOEX3D}/470uF/470uF 16V electr 8 x12mm -P.diameter 3.5mm-Black-White.stp"
 		(offset
 			(xyz 0 0 0)
 		)

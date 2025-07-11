@@ -145,7 +145,7 @@
 		(uuid "33941e2d-90fa-4989-b0e9-b3f4c1bb8e8c")
 	)
 	(embedded_fonts no)
-	(model "F:/arquivos/Dowloads/3d/capacitor_rnd_150mkt103k2ab.stp"
+	(model "${PROJETOEX3D}/capacitor_rnd_150mkt103k2ab.stp"
 		(offset
 			(xyz -3.2 0 0.4)
 		)

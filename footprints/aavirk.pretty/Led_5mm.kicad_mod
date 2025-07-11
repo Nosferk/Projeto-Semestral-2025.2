@@ -764,16 +764,16 @@
 			(checksum "56CB8494091C1F4C084D3517CC7EED0D")
 		)
 	)
-	(model "kicad-embed://ALSRobot-LED Red 5mm.STEP"
-		(opacity 0.6400)
+	(model "${PROJETOEX3D}/LED_3 mm GREEN.STEP"
+		(opacity 0.7700)
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.3)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1.5 1.5 1.5)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
