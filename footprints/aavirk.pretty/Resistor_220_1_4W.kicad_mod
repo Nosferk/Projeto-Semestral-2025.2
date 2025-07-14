@@ -145,7 +145,7 @@
 	(embedded_fonts no)
 	(model "${PROJETOEX3D}/R1K.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
