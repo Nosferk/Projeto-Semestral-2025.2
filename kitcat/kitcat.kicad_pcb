@@ -231,8 +231,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at -5 0 270)
-			(size 1.5 1.5)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Net-(IC1-12{slash}VCC)")
@@ -241,8 +241,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 5 0 270)
-			(size 1.5 1.5)
-			(drill 0.8)
+			(size 2 2)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "Net-(D1-Pad2)")
