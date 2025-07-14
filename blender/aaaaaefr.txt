@@ -1,0 +1,45 @@
+# World: 8-bit Computer 1.16.5
+# Terrain file name: F:\arquivos\Dowloads\mineways_min\terrainExt.png
+# Color scheme: Standard
+# Sat Jul 12 20:58:43 2025
+
+# Selection location min to max: 271, 54, 2 to 384, 319, 138
+#   Non-empty selection location min to max: 271, 54, 2 to 384, 76, 138
+
+# Set render type: Binary STL iMaterialise
+# Units for the model vertex data itself: millimeters
+
+# 106213 vertices, 106926 faces (213852 triangles), 54631 blocks, 1603 billboards/bits
+# block dimensions: X=115 by Y=24 (height) by Z=138 blocks
+# Elevation shading: no
+# Lighting: no
+# Transparent water: no
+# Map grid: no
+# File type: Export solid material colors only (no textures)
+# Texture output RGB: YES
+# Texture output A: YES
+# Texture output RGBA: YES
+# Export lesser blocks: YES
+# Fatten lesser blocks: no
+# Simplify mesh: no
+# Double all billboard faces: no
+# Create composite overlay faces: no
+# Center model: YES
+# Use biomes: no
+# Create block faces at the borders: YES
+# Tree leaves solid: no
+# Rotate model 0.000000 degrees
+# Make Z the up direction instead of Y: no
+# Scale model by making each block 1000 mm high
+# Data operation options:
+#   Fill air bubbles: no; Seal off entrances: no; Fill in isolated tunnels in base of model: no
+#   Connect parts sharing an edge: no; Connect corner tips: no; Weld all shared edges: no
+#   Delete floating objects: trees and parts smaller than 16 blocks: no
+#   Hollow out bottom of model, making the walls 1000 mm thick: no; Superhollow: no
+# Melt snow blocks: no
+#   Debug: show separate parts as colors: no
+#   Debug: show weld blocks in bright colors: no
+
+# Full world path: C:\Users\vitin\AppData\Roaming\.minecraft\saves\8-bit Computer 1.16.5
+# Full terrainExt.png path: F:\arquivos\Dowloads\mineways_min\terrainExt.png
+# Full current path: F:\arquivos\Dowloads\mineways_min
