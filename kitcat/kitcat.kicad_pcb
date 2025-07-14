@@ -12497,7 +12497,7 @@
 		(uuid "7ed15cab-0f96-4ffc-98a8-c54709f8244c")
 	)
 	(via
-		(at 163.673327 66.264567)
+		(at 163.65 67.05)
 		(size 2)
 		(drill 1)
 		(layers "F.Cu" "B.Cu")
