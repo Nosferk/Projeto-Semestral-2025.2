@@ -12365,7 +12365,7 @@
 		(uuid "d4a2b22a-036a-4026-9cfa-80a999c10dd8")
 	)
 	(gr_text "{dblquote}Look at you hacker, \na pathetic creature \nof meat and bone. \nHow can you \nchallenge a perfect, \nimmortal machine?{dblquote}"
-		(at 159.4 117 0)
+		(at 159.5 117.15 0)
 		(layer "F.SilkS")
 		(uuid "3c061635-44c4-4688-867e-ef5bdc11c3b6")
 		(effects
